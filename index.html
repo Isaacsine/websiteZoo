@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pine city Zoo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <img src="images/logo.png" alt="logo"/>
+    </div>
+    <div id="tabs-top">
+        <a href="index.html">ANIMALS</a>
+        <a href="index.html">MAPS</a>
+        <a href="index.html">PLACES</a>
+    </div>
+    <div id="main-home-login">
+        <div class="register">
+             <form class="registration" onsubmit="return login()">
+        <div class="form-input">
+            <label for="email">Email: </label><br>
+             <input type="email" id="email" name="email" placeholder="1234@gmail.com" required> <br><br>
+             <label for="name">Name & Surname:</label><br>
+             <input type="text" id="name" placeholder="name & surname" required> <br><br>
+        <div>
+              <input type="submit" value="ENTER" id="btn">
+              <a href="forgottenpass.html" id="pswd-id">forgotten email?</a>
+       </div>
+    </div>
+            </form>
+        </div>
+    </div>
+    <div id="tabs-botton">
+        <a href="index.html">WEATHER</a>
+        <a href="index.html">FEEDBACK</a>
+    </div>
+<script>
+        function login() {
+            window.location.href=i="index1.html";
+            return false;
+        }
+</script>
+</body>
+</html>
